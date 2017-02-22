@@ -8,7 +8,7 @@ if len(sys.argv) < 2:
     print("Please supply a summoner name.")
     exit()
 summonerName = sys.argv[1]
-if len(sys.argv) > 3:
+if len(sys.argv) > 2:
     if sys.argv[2] == "ranked":
         rankedOnly = True
 
